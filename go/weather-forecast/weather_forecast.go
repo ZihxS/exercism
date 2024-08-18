@@ -7,7 +7,7 @@ var CurrentCondition string
 // CurrentLocation represents a current location weather forecast.
 var CurrentLocation string
 
-// Forecast returns an string weathe condition/forecasting information.
+// Forecast returns an string weather condition/forecasting information.
 func Forecast(city, condition string) string {
 	return CurrentLocation + " - current weather condition: " + CurrentCondition
 }
